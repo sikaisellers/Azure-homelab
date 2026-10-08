@@ -45,11 +45,14 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 ---
 
 ## 🗺️ Architecture Diagram
+<img width="835" height="385" alt="image" src="https://github.com/user-attachments/assets/5371c96e-0c57-4123-a93f-97fc648ca2a5" />
 
 
 ---
 
 ## 💻 Virtual Machine Configuration
+
+<img width="814" height="377" alt="image" src="https://github.com/user-attachments/assets/b00a7e01-5497-4156-a1d2-872f0024fdb8" />
 
 | Property | Value |
 |---|---|
@@ -65,10 +68,12 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![VM Overview](screenshots/01-vm-overview.png)
 *Figure 1: Azure VM Overview Blade*
+<img width="640" height="443" alt="image" src="https://github.com/user-attachments/assets/0442dd08-78ed-42ab-8678-eed8c41175a2" />
 
 ---
 
 ## 🌐 Network Interface Card (NIC) Configuration
+<img width="818" height="285" alt="image" src="https://github.com/user-attachments/assets/72d16e77-0d6b-4547-b452-191e45585cac" />
 
 | Property | Value |
 |---|---|
@@ -82,10 +87,12 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![NIC Configuration](screenshots/02-nic-config.png)
 *Figure 2: Network Interface Card Configuration*
+<img width="646" height="276" alt="image" src="https://github.com/user-attachments/assets/60980533-2c04-44a4-9310-e86fd3cbfd29" />
 
 ---
 
 ## 🔒 Network Security Group (NSG) Rules
+<img width="817" height="243" alt="image" src="https://github.com/user-attachments/assets/4de4e6e2-0a99-4f36-835b-8357bbdfb802" />
 
 | Priority | Name | Port | Protocol | Source | Action |
 |---|---|---|---|---|---|
@@ -100,6 +107,7 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![NSG Rules](screenshots/03-nsg-rules.png)
 *Figure 3: NSG Inbound Security Rules*
+<img width="638" height="309" alt="image" src="https://github.com/user-attachments/assets/a02e8955-874f-4cc8-905c-d3fcfa203c3a" />
 
 ---
 
@@ -116,6 +124,7 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 7. Rebooted — domain controller promotion confirmed
 
 ### Domain Configuration
+<img width="817" height="242" alt="image" src="https://github.com/user-attachments/assets/42578bce-d75f-492c-8ef8-3052d4b9b4eb" />
 
 | Property | Value |
 |---|---|
@@ -127,23 +136,28 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![AD DS Installation](screenshots/04-adds-install.png)
 *Figure 4: AD DS Role Installation — Server Manager*
+<img width="652" height="310" alt="image" src="https://github.com/user-attachments/assets/266fa3d6-bfb5-48dc-9ede-be97f728cef2" />
 
 ![DC Promotion](screenshots/05-dc-promotion.png)
 *Figure 5: Domain Controller Promotion Wizard*
+<img width="645" height="439" alt="image" src="https://github.com/user-attachments/assets/c7fd83f5-df99-426d-b807-2d5a381046fe" />
 
 ---
 
 ## 🗂️ Organizational Unit (OU) Structure
+<img width="815" height="319" alt="image" src="https://github.com/user-attachments/assets/23730721-1e6e-4fe0-9f28-2beb2e022426" />
 
 
 > 📝 The underscore prefix (`_`) floats custom OUs to the top of the ADUC tree, separating them from default Microsoft containers.
 
 ![OU Structure](screenshots/06-ou-structure.png)
 *Figure 6: OU Hierarchy in Active Directory Users and Computers*
+<img width="642" height="285" alt="image" src="https://github.com/user-attachments/assets/23f806e1-a710-4c91-810f-ad129d413eb1" />
 
 ---
 
 ## 👑 Domain Admin Configuration
+<img width="818" height="246" alt="image" src="https://github.com/user-attachments/assets/4e92cb1f-ae00-488f-b0fc-448877c3ae75" />
 
 | Property | Value |
 |---|---|
@@ -164,13 +178,16 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![Domain Admin Membership](screenshots/07-domain-admin.png)
 *Figure 7: Domain Admins Group — Members Tab*
+<img width="646" height="301" alt="image" src="https://github.com/user-attachments/assets/c20d379e-4122-4095-a59d-06d5d24042c8" />
 
 ![Admin User Properties](screenshots/08-admin-user.png)
 *Figure 8: Admin User Account Properties*
+<img width="641" height="450" alt="image" src="https://github.com/user-attachments/assets/62732df4-e1d5-40b1-b28f-b32d4bfbaf2e" />
 
 ---
 
 ## 📸 Screenshots
+<img width="820" height="380" alt="image" src="https://github.com/user-attachments/assets/0f0b5be7-fc8c-44b7-aa0f-647c9fdb60c1" />
 
 | # | Filename | Description |
 |---|---|---|
@@ -187,18 +204,22 @@ This homelab replicates a real-world enterprise identity and infrastructure envi
 
 ![Server Manager](screenshots/09-server-manager.png)
 *Figure 9: Server Manager Dashboard Post-Install*
+<img width="644" height="299" alt="image" src="https://github.com/user-attachments/assets/9ac4cf00-a4dc-45ce-af5d-0e6921ef495d" />
 
 ![ADUC Overview](screenshots/10-aduc-overview.png)
 *Figure 10: ADUC Full Domain Tree View*
+<img width="656" height="448" alt="image" src="https://github.com/user-attachments/assets/5083bc1b-7510-4e0d-811b-f35cc37dec2e" />
 
 ---
 
 ## 📁 Repository Structure
+<img width="841" height="402" alt="image" src="https://github.com/user-attachments/assets/0c3c17dd-d6f0-4099-9357-bd68fd474901" />
 
 
 ---
 
 ## 🛠️ Skills Demonstrated
+<img width="814" height="277" alt="image" src="https://github.com/user-attachments/assets/a6c19eb7-86e1-4ac5-9758-f6439da21a7a" />
 
 | Category | Skills |
 |---|---|
